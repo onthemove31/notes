@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs/
+*.log
+yarn-error.log
+
+# Vercel & Deployment
+.vercel
+.vercel/cache
