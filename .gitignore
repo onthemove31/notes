@@ -21,3 +21,4 @@ yarn-error.log
 # Vercel & Deployment
 .vercel
 .vercel/cache
+vercel.json
