@@ -7,11 +7,27 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <nav>
-        <a href="/">Home</a> | <a href="/about.html">About</a>
-    </nav>
-    <main>
-        {{{ contents }}}
-    </main>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Wiki Navigation</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/team.html">Team</a></li>
+                <li><a href="/tenets.html">Tenets</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/roadmap.html">Roadmap</a></li>
+                <li><strong>Guides</strong></li>
+                <ul>
+                    <li><a href="/guides/onboarding.html">Onboarding</a></li>
+                    <li><a href="/guides/best-practices.html">Best Practices</a></li>
+                    <li><a href="/guides/tools.html">Tools & Tech Stack</a></li>
+                </ul>
+            </ul>
+        </aside>
+        <main>
+            {{{ contents }}}
+        </main>
+    </div>
 </body>
 </html>
